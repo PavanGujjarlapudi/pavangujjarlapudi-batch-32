@@ -5,6 +5,13 @@
 /tmp
 /out-tsc
 /bazel-out
+.angular.json
+.package-lock.json
+.package.json
+.README.node_modules
+.tsconfig.app.json
+.tsconfig.json
+.tsconfig.spec.json
 
 # Node
 /node_modules
@@ -37,13 +44,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-.angular.json
-.package-lock.json
-.package.json
-.README.node_modules
-.tsconfig.app.json
-.tsconfig.json
-.tsconfig.spec.json
+
 
 # System files
 .DS_Store
