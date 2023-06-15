@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todoApp';
+  public isLogin = false;
+
+  onClick(){
+      this.isLogin = !this.isLogin;
+      console.log();
+  }
 }
